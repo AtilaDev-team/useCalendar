@@ -1,4 +1,4 @@
-# useCalendar Hook 🚀 <img alt="useCalendar version" src="https://img.shields.io/npm/v/@atiladev/usecalendar.svg?style=flat-square&label=Version&labelColor=000000&color=1f203f">
+# useCalendar Hook 🚀 <img alt="useCalendar version" src="https://img.shields.io/npm/v/@atiladev/usecalendar.svg?style=flat-square&label=Version&labelColor=000000&color=3949AB">
 
 [![made with expo](https://img.shields.io/badge/MADE%20WITH%20EXPO-000.svg?style=for-the-badge&logo=expo&labelColor=4630eb&logoWidth=20)](https://github.com/expo/expo)
 
