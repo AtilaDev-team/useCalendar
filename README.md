@@ -2,18 +2,20 @@
 
 [![made with expo](https://img.shields.io/badge/MADE%20WITH%20EXPO-000.svg?style=for-the-badge&logo=expo&labelColor=4630eb&logoWidth=20)](https://github.com/expo/expo)
 
-### Updated to Expo SDK45
+> Updated to Expo SDK45
 
 ### This is an easy hook to use expo-calendar. It allows you:
 
 - Get access permission to calendar
 - Open settings to give access permission to calendar
 - Create a new calendar and store it on your device
-- Add events to this calendar
-- Check if exist some event inside of this calendar created
+- Add events to the calendar
+- Check if an event exists inside of the calendar created
 - Delete the calendar and all events inside of it
 
 ### How to use it
+
+Start by importing the `useCalendar` hook and then import the packages that you need to interact with the Calendar:
 
 ```js
 import useCalendar from '@atiladev/usecalendar';
