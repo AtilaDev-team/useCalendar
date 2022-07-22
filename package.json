@@ -1,0 +1,27 @@
+{
+  "name": "usecalendar",
+  "version": "0.0.1",
+  "description": "An easy hook to use with expo-calendar library!",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://locahost"
+  },
+  "keywords": [
+    "expo",
+    "calendar",
+    "react",
+    "native",
+    "hook",
+    "android",
+    "ios",
+    "events",
+    "alarm",
+    "settings"
+  ],
+  "author": "Leandro Favre",
+  "license": "MIT"
+}
