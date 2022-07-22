@@ -73,4 +73,4 @@ openSettings: () => Promise<void>
 isThereEvents: () => Promise<boolean>
 ```
 
-Developed with ❤️ by [Leandro Favre AtilaDev](https://github.com/AtilaDev-team)
+Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev-team)
