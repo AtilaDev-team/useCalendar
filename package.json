@@ -1,5 +1,5 @@
 {
-  "name": "usecalendar",
+  "name": "@atiladev/usecalendar",
   "version": "0.0.1",
   "description": "An easy hook to use with expo-calendar library!",
   "main": "index.ts",
