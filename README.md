@@ -13,6 +13,14 @@
 - Check if an event exists inside of the calendar created
 - Delete the calendar and all events inside of it
 
+### Install
+
+```sh
+$ npm install @atiladev/usecalendar
+or
+$ yarn add @atiladev/usecalendar
+```
+
 ### How to use it
 
 Start by importing the `useCalendar` hook and then import the packages that you need to interact with the Calendar:
