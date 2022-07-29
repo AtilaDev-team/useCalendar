@@ -81,4 +81,6 @@ openSettings: () => Promise<void>
 isThereEvents: () => Promise<boolean>
 ```
 
+If this hook is useful for you, please consider giving it a star. This does not mean very much but motivates us to continue working on this and adding new features. Thanks!
+
 Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev-team)
