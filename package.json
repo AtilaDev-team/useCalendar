@@ -1,6 +1,6 @@
 {
   "name": "@atiladev/usecalendar",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "An easy hook to use with expo-calendar library!",
   "main": "index.ts",
   "repository": {
@@ -22,10 +22,10 @@
   "homepage": "https://github.com/AtilaDev-team",
   "author": "Leandro Favre <atiladevelop@gmail.com> (AtilaDev)",
   "devDependencies": {
-    "expo": "^45.0.0",
-    "expo-calendar": "~10.2.0",
-    "expo-localization": "~13.0.0",
-    "@react-native-async-storage/async-storage": "~1.17.3"
+    "expo": "^46.0.8",
+    "expo-calendar": "~10.3.0",
+    "expo-localization": "~13.1.0",
+    "@react-native-async-storage/async-storage": "~1.17.9"
   },
   "license": "MIT"
 }
