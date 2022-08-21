@@ -21,6 +21,12 @@ or
 $ yarn add @atiladev/usecalendar
 ```
 
+### You'll need install next libraries:
+
+```sh
+$ npx expo install expo-calendar expo-localization @react-native-async-storage/async-storage
+```
+
 ### How to use it
 
 Start by importing the `useCalendar` hook and then import the packages that you need to interact with the Calendar:
