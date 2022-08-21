@@ -62,7 +62,7 @@ const createCalAndEvent = async () => {
   }
 };
 
-const RemoveCalendar = () => deleteCalendar();
+const removeCalendar = () => deleteCalendar();
 ```
 
 #### useCalendar
