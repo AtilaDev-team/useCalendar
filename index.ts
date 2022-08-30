@@ -108,6 +108,19 @@ const useCalendar = (title: string, color: string, storeName: string) => {
     return thereIs.length !== 0;
   };
 
+  const getEvents = async () => {
+    const thereIsACalendar = await _getCalendarStored(storeName);
+    let thereIs: Calendar.Event[] = [];
+    if (thereIsACalendar) {
+      thereIs = await Calendar.getEventsAsync(
+        [thereIsACalendar],
+        new Date(2021, 0),
+        new Date(new Date().getFullYear() + 1, 0)
+      );
+    }
+    return thereIs;
+  };
+
   return {
     getPermission,
     createCalendar,
@@ -115,6 +128,7 @@ const useCalendar = (title: string, color: string, storeName: string) => {
     deleteCalendar,
     openSettings,
     isThereEvents,
+    getEvents,
   };
 };
 

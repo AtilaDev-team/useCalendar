@@ -41,6 +41,7 @@ const {
   deleteCalendar,
   openSettings,
   isThereEvents,
+  getEvents,
 } = useCalendar('App_Name', '#BADA55', 'Calendar_Name');
 
 const createCalAndEvent = async () => {
@@ -85,6 +86,8 @@ deleteCalendar: () => Promise<void>
 openSettings: () => Promise<void>
 
 isThereEvents: () => Promise<boolean>
+
+getEvents: () => Promise<Calendar.Event[]>
 ```
 
 If this hook is useful for you, please consider giving it a star. This does not mean very much but motivates us to continue working on this and adding new features. Thanks!
