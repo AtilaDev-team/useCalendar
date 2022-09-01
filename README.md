@@ -10,6 +10,8 @@
 - Open settings to give access permission to calendar
 - Create a new calendar and store it on your device
 - Add events to the calendar
+- Get all events
+- Get calendarId
 - Check if an event exists inside of the calendar created
 - Delete the calendar and all events inside of it
 
@@ -35,13 +37,14 @@ Start by importing the `useCalendar` hook and then import the packages that you 
 import useCalendar from '@atiladev/usecalendar';
 
 const {
-  getPermission,
-  createCalendar,
   addEventsToCalendar,
+  createCalendar,
   deleteCalendar,
-  openSettings,
-  isThereEvents,
+  getCalendarId,
   getEvents,
+  getPermission,
+  isThereEvents,
+  openSettings,
 } = useCalendar('App_Name', '#BADA55', 'Calendar_Name');
 
 const createCalAndEvent = async () => {
