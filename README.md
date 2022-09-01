@@ -88,6 +88,8 @@ openSettings: () => Promise<void>
 isThereEvents: () => Promise<boolean>
 
 getEvents: () => Promise<Calendar.Event[]>
+
+getCalendarId: () => Promise<any>
 ```
 
 If this hook is useful for you, please consider giving it a star. This does not mean very much but motivates us to continue working on this and adding new features. Thanks!

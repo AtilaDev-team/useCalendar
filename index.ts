@@ -121,14 +121,19 @@ const useCalendar = (title: string, color: string, storeName: string) => {
     return thereIs;
   };
 
+  const getCalendarId = async () => {
+    return await _getCalendarStored(storeName);
+  };
+
   return {
-    getPermission,
-    createCalendar,
     addEventsToCalendar,
+    createCalendar,
     deleteCalendar,
-    openSettings,
-    isThereEvents,
+    getCalendarId,
     getEvents,
+    getPermission,
+    isThereEvents,
+    openSettings,
   };
 };
 
