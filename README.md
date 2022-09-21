@@ -4,7 +4,13 @@
 
 > Updated to Expo SDK46
 
-### This is an easy hook to use expo-calendar. It allows you:
+## Blog post
+
+To learn more about using this hook and see it in action, [**read the post**](https://medium.com/@FavreLeandro/how-to-use-usecalendar-hook-for-expo-and-react-native-a1d2bcc3aa1c)!
+
+## What is it for
+
+This is an easy hook to use expo-calendar. It allows you:
 
 - Get access permission to calendar
 - Open settings to give access permission to calendar
@@ -15,21 +21,22 @@
 - Check if an event exists inside of the calendar created
 - Delete the calendar and all events inside of it
 
-### Install
+## Install
 
 ```sh
-$ npm install @atiladev/usecalendar
-or
-$ yarn add @atiladev/usecalendar
+npm install @atiladev/usecalendar
+
+# O
+yarn add @atiladev/usecalendar
 ```
 
-### You'll need install next libraries:
+After installing the hook, you'll have to install the following libraries
 
 ```sh
 $ npx expo install expo-calendar expo-localization @react-native-async-storage/async-storage
 ```
 
-### How to use it
+## How to use it
 
 Start by importing the `useCalendar` hook and then import the packages that you need to interact with the Calendar:
 
@@ -69,7 +76,7 @@ const createCalAndEvent = async () => {
 const removeCalendar = () => deleteCalendar();
 ```
 
-#### useCalendar
+### useCalendar
 
 ```js
 useCalendar(title: string, color: string, storeName: string);
@@ -95,6 +102,8 @@ getEvents: () => Promise<Calendar.Event[]>
 getCalendarId: () => Promise<any>
 ```
 
-If this hook is useful for you, please consider giving it a star. This does not mean very much but motivates us to continue working on this and adding new features. Thanks!
+---
 
-Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev-team)
+⭐️ If this hook is useful for you, please consider giving it a star. This motivates us to continue working on this and adding new features. Thanks!
+
+**Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev-team)**
