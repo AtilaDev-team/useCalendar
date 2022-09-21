@@ -26,7 +26,8 @@ This is an easy hook to use expo-calendar. It allows you:
 ```sh
 npm install @atiladev/usecalendar
 
-# O
+or
+
 yarn add @atiladev/usecalendar
 ```
 
