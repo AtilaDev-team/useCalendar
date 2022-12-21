@@ -4,9 +4,11 @@
 
 > Updated to Expo SDK46
 
-## Blog post
+## Blog post & example
 
 To learn more about using this hook and see it in action, [**read the post**](https://medium.com/@FavreLeandro/how-to-use-usecalendar-hook-for-expo-and-react-native-a1d2bcc3aa1c)!
+
+To see a working example, check out [my-expo-agenda](https://github.com/AtilaDev-team/my-expo-agenda) which is a small example app developed to showcase how to use `useCalendar` hook.
 
 ## What is it for
 
