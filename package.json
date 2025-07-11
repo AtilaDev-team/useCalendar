@@ -22,10 +22,10 @@
   "homepage": "https://github.com/AtilaDev-team",
   "author": "Leandro Favre <atiladevelop@gmail.com> (AtilaDev)",
   "devDependencies": {
-    "expo": "^46.0.8",
-    "expo-calendar": "~10.3.0",
-    "expo-localization": "~13.1.0",
-    "@react-native-async-storage/async-storage": "~1.17.9"
+    "expo": "*",
+    "expo-calendar": "*",
+    "expo-localization": "*",
+    "@react-native-async-storage/async-storage": "*"
   },
   "license": "MIT"
 }

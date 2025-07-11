@@ -2,7 +2,7 @@
 
 [![made with expo](https://img.shields.io/badge/MADE%20WITH%20EXPO-000.svg?style=for-the-badge&logo=expo&labelColor=4630eb&logoWidth=20)](https://github.com/expo/expo)
 
-> Updated to Expo SDK46
+> Updated to Expo SDK53
 
 ## Blog post & example
 
@@ -44,7 +44,7 @@ $ npx expo install expo-calendar expo-localization @react-native-async-storage/a
 Start by importing the `useCalendar` hook and then import the packages that you need to interact with the Calendar:
 
 ```js
-import useCalendar from '@atiladev/usecalendar';
+import useCalendar from "@atiladev/usecalendar";
 
 const {
   addEventsToCalendar,
@@ -55,7 +55,7 @@ const {
   getPermission,
   isThereEvents,
   openSettings,
-} = useCalendar('App_Name', '#BADA55', 'Calendar_Name');
+} = useCalendar("App_Name", "#BADA55", "Calendar_Name");
 
 const createCalAndEvent = async () => {
   const granted = await getPermission();
@@ -66,7 +66,7 @@ const createCalAndEvent = async () => {
 
     if (!eventExists) {
       try {
-        addEventsToCalendar('Event title', new Date(), new Date());
+        addEventsToCalendar("Event title", new Date(), new Date());
       } catch (e) {
         // Something went wrong
       }
@@ -109,4 +109,4 @@ getCalendarId: () => Promise<any>
 
 ⭐️ If this hook is useful for you, please consider giving it a star. This motivates us to continue working on this and adding new features. Thanks!
 
-**Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev-team)**
+**Developed with ❤️ by [Leandro Favre (AtilaDev)](https://github.com/AtilaDev)**
